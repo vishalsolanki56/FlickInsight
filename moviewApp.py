@@ -15,7 +15,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 #from indexer import DictionaryIndex
 import re
 # Initializing the OpenAI client
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='---your openai API key---')
 
 
 def textrank_summarize(text, ratio):
